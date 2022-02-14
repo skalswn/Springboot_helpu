@@ -21,7 +21,7 @@
   <link rel="shortcut icon" href="resources/images/favicon.png" />
 <script type="text/javascript">
 function input_page()  {
-	  window.location.href = 'http://localhost:8081/spring/input_memo'
+	  window.location.href = 'http://localhost:8090/input_memo'
 	}
 
 </script>
@@ -34,10 +34,10 @@ function input_page()  {
 			<div
 				class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
 				<a class="navbar-brand brand-logo mr-5"
-					href="http://localhost:8081/spring/home"><img
+					href="http://localhost:8090/home"><img
 					src="resources/images/logos.png" class="mr-2" alt="logo" /></a> <a
 					class="navbar-brand brand-logo-mini"
-					href="http://localhost:8081/spring/home"><img
+					href="http://localhost:8090/home"><img
 					src="resources/images/logos.png" alt="logo" /></a>
 			</div>
 			<div
@@ -270,7 +270,7 @@ function input_page()  {
 			<nav class="sidebar sidebar-offcanvas" id="sidebar">
 				<ul class="nav">
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8081/spring/home"> <i
+						href="http://localhost:8090/home"> <i
 							class="icon-grid menu-icon"></i> <span class="menu-title">마이
 								리포트</span>
 					</a></li>
@@ -292,27 +292,18 @@ function input_page()  {
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
-						data-toggle="collapse" href="#charts" aria-expanded="false"
-						aria-controls="charts"> <i class="icon-bar-graph menu-icon"></i>
-							<span class="menu-title">식습관 분석</span> <i class="menu-arrow"></i>
+					href="http://localhost:8090/habit"> <i class="icon-bar-graph menu-icon"></i>
+							<span class="menu-title">식습관 분석</span> 
 					</a>
-						<div class="collapse" id="charts">
-							<ul class="nav flex-column sub-menu">
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식생활 분석(숫자로 안되는
-										것)</a></li>
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식습관 분석(숫자로 되는 것)</a></li>
-							</ul>
-						</div></li>
+						</li>
 
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8081/spring/gallery"> <i
+						href="http://localhost:8090/memo"> <i
 							class="icon-layout menu-icon"></i> <span class="menu-title">게시판</span>
 					</a></li>
 					
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8081/spring/gallery">
+						href="http://localhost:8090/gallery">
 						<i class="icon-head menu-icon"></i> <span class="menu-title">마이페이지</span>
 					</a></li>					
 				</ul>

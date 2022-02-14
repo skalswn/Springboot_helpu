@@ -34,7 +34,7 @@
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #4B49AC;
   color: #fff;
 }
 
@@ -446,22 +446,13 @@ function input_page()  {
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
-						data-toggle="collapse" href="#charts" aria-expanded="false"
-						aria-controls="charts"> <i class="icon-bar-graph menu-icon"></i>
-							<span class="menu-title">식습관 분석</span> <i class="menu-arrow"></i>
+					href="http://localhost:8090/habit"> <i class="icon-bar-graph menu-icon"></i>
+							<span class="menu-title">식습관 분석</span> 
 					</a>
-						<div class="collapse" id="charts">
-							<ul class="nav flex-column sub-menu">
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식생활 분석(숫자로 안되는
-										것)</a></li>
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식습관 분석(숫자로 되는 것)</a></li>
-							</ul>
-						</div></li>
+						</li>
 
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8090/gallery"> <i
+						href="http://localhost:8090/memo"> <i
 							class="icon-layout menu-icon"></i> <span class="menu-title">게시판</span>
 					</a></li>
 					
@@ -479,7 +470,7 @@ function input_page()  {
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">김치찌개 노맛</h3>
+          <h3 class="section-title">나의 다이어리</h3>
         </header>
 
         <div class="row">
@@ -498,7 +489,7 @@ function input_page()  {
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="resources/img/portfolio/01.jpg" class="img-fluid figure-img" alt="">
+                <img src="resources/img/portfolio/01.jpg" class="img-fluid" alt=""> 
                 <a href="resources/img/portfolio/01.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>

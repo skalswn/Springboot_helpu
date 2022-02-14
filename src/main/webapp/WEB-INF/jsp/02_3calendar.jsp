@@ -392,22 +392,13 @@
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
-						data-toggle="collapse" href="#charts" aria-expanded="false"
-						aria-controls="charts"> <i class="icon-bar-graph menu-icon"></i>
-							<span class="menu-title">식습관 분석</span> <i class="menu-arrow"></i>
+					href="http://localhost:8090/habit"> <i class="icon-bar-graph menu-icon"></i>
+							<span class="menu-title">식습관 분석</span> 
 					</a>
-						<div class="collapse" id="charts">
-							<ul class="nav flex-column sub-menu">
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식생활 분석(숫자로 안되는
-										것)</a></li>
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식습관 분석(숫자로 되는 것)</a></li>
-							</ul>
-						</div></li>
+						</li>
 
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8090/gallery"> <i
+						href="http://localhost:8090/memo"> <i
 							class="icon-layout menu-icon"></i> <span class="menu-title">게시판</span>
 					</a></li>
 					
