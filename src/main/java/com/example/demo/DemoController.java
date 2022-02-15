@@ -58,6 +58,10 @@ public class DemoController {
 	public String calendar() {
 		return "02_3calendar";
 	}
+	@RequestMapping("/habit")
+	public String habit() {
+		return "03_1foodhabit";
+	}
 	@RequestMapping("/memo")
 	public String memo() {
 		return "04_1memo";

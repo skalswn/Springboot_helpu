@@ -30636,7 +30636,7 @@ div.tagsinput span.tag a {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
+  background: #4B49AC;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -30725,7 +30725,7 @@ div.tagsinput span.tag a {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #4B49AC;
   color: #fff;
 }
 

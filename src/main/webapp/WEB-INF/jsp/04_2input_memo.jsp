@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-
+<!--  -->
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -279,7 +279,7 @@
 					</a>
 						<div class="collapse" id="form-elements">
 							<ul class="nav flex-column sub-menu">
-								<li class="nav-item"><a class="nav-link"
+							<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/gallery">나의 다이어리</a></li>
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>							
@@ -288,22 +288,13 @@
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
-						data-toggle="collapse" href="#charts" aria-expanded="false"
-						aria-controls="charts"> <i class="icon-bar-graph menu-icon"></i>
-							<span class="menu-title">식습관 분석</span> <i class="menu-arrow"></i>
+					href="http://localhost:8090/habit"> <i class="icon-bar-graph menu-icon"></i>
+							<span class="menu-title">식습관 분석</span> 
 					</a>
-						<div class="collapse" id="charts">
-							<ul class="nav flex-column sub-menu">
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식생활 분석(숫자로 안되는
-										것)</a></li>
-								<li class="nav-item"><a class="nav-link"
-									href="resources/pages/charts/chartjs.html">식습관 분석(숫자로 되는 것)</a></li>
-							</ul>
-						</div></li>
+						</li>
 
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8090/gallery"> <i
+						href="http://localhost:8090/memo"> <i
 							class="icon-layout menu-icon"></i> <span class="menu-title">게시판</span>
 					</a></li>
 					
@@ -486,8 +477,8 @@
         </div>
       </div>
       <!-- partial -->
-      <!-- partial:../../partials/_sidebar.html -->
-     
+      <!-- partial:../../partials/_sidebar.html -->     
+      <!-- partial -->
       <div class="main-panel">        
         <div class="content-wrapper">
           <div class="row">
@@ -498,33 +489,31 @@
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">오늘의 음식을 기록해보세요!</h4>            
+                  <h4 class="card-title">게시판 작성하기!</h4>            
                   <form class="forms-sample">
                     <div class="form-group">
                       <label for="exampleInputName1">제목</label>
                       <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
                     </div>
-                    <div class="form-group">
-                      <label>음식을 먹은 시간</label>
-                      <input type="date" class="form-control" id="exampleInputEmail3" placeholder="date">
-                    </div>                   
+                                
                       <!--  -->
                  
-               		<div class="form-group">
-                      <label>평가</label>
-                        <select class="form-control" id="exampleSelectGender">
-                          <option>너무 맛있음</option>
-                          <option>맛있음</option>
-                          <option>그냥저냥</option>
-                          <option>나쁨</option>
-                        </select>
-                      </div>
-                      
+               		
                       <!--  -->
                                       
                     <div class="form-group">
                       <label for="exampleTextarea1">메모</label>
                       <textarea class="form-control" id="exampleTextarea1" rows="20"></textarea>
+                    </div>
+                     <div class="form-group">
+                      <label>첨부파일 추가</label>
+                      <input type="file" name="img[]" class="file-upload-default">
+                      <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled placeholder="Upload File">
+                        <span class="input-group-append">
+                          <button class="file-upload-browse btn btn-primary" type="button">업로드</button>
+                        </span>
+                      </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">작성</button>
                     <button class="btn btn-light">취소</button>
