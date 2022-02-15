@@ -151,6 +151,15 @@
   text-transform: uppercase;
 }
 
+.portfolio-popup{
+	width : 100vw;
+	height : 100vh;
+	background : rgba(0,0,0,.4);
+	position : fixed;
+	z-index:99;
+	top:0; left:0;
+}
+
 </style>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -470,7 +479,7 @@ function input_page()  {
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">나의 다이어리</h3>
+          <h3 class="section-title">나의 다이어리 Springboot_helpu ver</h3>
         </header>
 
         <div class="row">
@@ -499,17 +508,6 @@ function input_page()  {
                 <p>1620kcal</p>
               </div>
             </div>
-          </div>
-          <div class="portfolio-popup">
-          	<div class="portfolio-wrap">
-          		<h4><a href="#" class="portfolio-link">삼겹살 마싰다....</a></h4>
-          		<figure>
-	                <img src="resources/img/portfolio/01.jpg" class="img-fluid figure-img" alt="">
-	                <a href="resources/img/portfolio/01.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-	                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-	            </figure>
-	            <p>나두 삼겹살 먹고싶다...! 집 근처에 삼겹살집이 없어 차도 없어 돈도 없어 삼겹살은 사치품이었구나</p>
-          	</div>
           </div>
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
