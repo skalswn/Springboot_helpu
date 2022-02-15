@@ -479,7 +479,7 @@ function input_page()  {
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">나의 다이어리Springboot_helpu ver</h3>
+          <h3 class="section-title">나의 다이어리 Springboot_helpu ver</h3>
         </header>
 
         <div class="row">
