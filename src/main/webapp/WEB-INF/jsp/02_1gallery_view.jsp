@@ -504,12 +504,23 @@ function input_page()  {
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">삼겹살 마싰다....</a></h4>
+                <h4><a href="#" class="portfolio-link">삼겹살 마싰다....</a></h4>
                 <p>1620kcal</p>
               </div>
             </div>
           </div>
-
+          <div class="portfolio-popup">
+          	<div class="portfolio-wrap">
+          		<h4><a href="#" class="portfolio-link">삼겹살 마싰다....</a></h4>
+          		<figure>
+	                <img src="resources/img/portfolio/01.jpg" class="img-fluid figure-img" alt="">
+	                <a href="resources/img/portfolio/01.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+	                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+	            </figure>
+	            <p>나두 삼겹살 먹고싶다...! 집 근처에 삼겹살집이 없어 차도 없어 돈도 없어 삼겹살은 사치품이었구나</p>
+          	</div>
+          </div>
+          
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
